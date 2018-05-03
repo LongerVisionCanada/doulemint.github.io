@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-08-29 14:34:25
+title:  "Welcome to MyBlog!"
+date:   2018-04-28 14:34:25
 categories: jekyll update
 tags: featured
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
@@ -19,11 +19,28 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
+program：House Price Pediction 之 Tensorflow 学习笔记--（1）
 {% highlight js %}
+####House Price Pediction 之 Tensorflow 学习笔记--（1）
 
+| Tables        | Are           | Cool  |
+
+	
+| ------------- |:-------------:| -----:|
+
+	
+| col 3 is      | right-aligned | $1600 |
+
+	
+| col 2 is      | centered      |   $12 |
+
+	
+| zebra stripes | are neat      |    $1 |
+
+tf.constant([][]);
+tf.Variable([])
+tf.placeholder([])
+tf.assign()
 <footer class="site-footer">
  <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
   <div class="inner">a
@@ -34,6 +51,3 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 {% endhighlight %}
 
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
