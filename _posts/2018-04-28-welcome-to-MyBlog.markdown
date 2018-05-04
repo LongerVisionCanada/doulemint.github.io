@@ -66,6 +66,8 @@ tf.constant([][]);
 tf.Variable([])
 tf.placeholder([])
 tf.assign()
+
+{% highlight ruby %}
 <footer class="site-footer">
  <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
   <div class="inner">a
