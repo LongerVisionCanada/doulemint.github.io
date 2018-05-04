@@ -1,16 +1,29 @@
 ---
 layout: post
-title:  "Welcome to MyBlog!"
+title:  "Welcome to MyBlog about Machine learning!"
 date:   2018-04-28 14:34:25
 categories: jekyll update
 tags: featured
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+####导语：
+>这里记录基础的线性回归&梯度下降的学习笔记。我的资料来源自[LearningTensorflow](https://github.com/SaoYan/LearningTensorflow)
+希望自己可以通过写博客让自己的思路再次梳理一遍！温故知新~
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+##一·初识tensorflow&python基础
+| Tables        | Are           | Cool  |
 
-Jekyll also offers powerful support for code snippets:
+	
+| ------------- |:-------------:| -----:|
+
+	
+| tf.constant()    | 常量          | shape |
+
+	
+| tf.Variable()    | 变量          |   $12 |
+
+	
+| tf.placeholder() | 待输入值      |    $1 |
 
 {% highlight ruby %}
 def print_hi(name)
@@ -20,22 +33,9 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 program：House Price Pediction 之 Tensorflow 学习笔记--（1）
-{% highlight js %}
+
 ####House Price Pediction 之 Tensorflow 学习笔记--（1）
 
-| Tables        | Are           | Cool  |
-
-	
-| ------------- |:-------------:| -----:|
-
-	
-| col 3 is      | right-aligned | $1600 |
-
-	
-| col 2 is      | centered      |   $12 |
-
-	
-| zebra stripes | are neat      |    $1 |
 
 tf.constant([][]);
 tf.Variable([])
