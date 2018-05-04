@@ -4,7 +4,7 @@ gems:
   - jekyll-paginate
 
 # Site settings
-title: "Mediator"
+title: "Sia x jekyll"
 description: > # this means to ignore newlines until "email:"
    A recording of all aspects of my life
 
@@ -49,7 +49,7 @@ social:
 #    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/dirkfabisch
+    url:	https://github.com/doulemint
     desc:	Fork me on github
     share_url:
     share_title:

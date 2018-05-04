@@ -9,6 +9,7 @@ image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
 ####导语：
 >这里记录基础的线性回归&梯度下降的学习笔记。我的资料来源自[LearningTensorflow](https://github.com/SaoYan/LearningTensorflow)
 希望自己可以通过写博客让自己的思路再次梳理一遍！温故知新~
+最后记得常翻官方文档哦！[Tensorflow](http://www.tensorflow.org/)还有[numpy reference](https://docs.scipy.org/doc/numpy/genindex.html)
 
 ##一·初识tensorflow&python基础
 | Tables        | Are           | Cool  |
@@ -20,18 +21,42 @@ image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
 | tf.constant()    | 常量          | shape |
 
 	
-| tf.Variable()    | 变量          |   $12 |
+| tf.Variable(initial_number,type)    | 变量          |   $12 |
 
 	
 | tf.placeholder() | 待输入值      |    $1 |
 
+
+###constant
+
+```python
+#定义常量并加减
+x = tf.constant([[5,2],[2,1]])
+y = tf.constant([2])
+z = tf.add(x,y)
+with tf.Session() as sess:
+    print(sess.run(z))
+>>>  [[7 4]
+     [4 3]]	
+```
+
+###Variable
+
+
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+print("\n build a variable...\n")
+W = tf.Variable(.3, tf.float32)
+
+# we can also get W by:
+
+C = tf.constant(.3, tf.float32)
+W = tf.Variable(C)
+b = tf.Variable(-.3, tf.float32)
+#=>w = 0.3 ; b = -0.3.
 {% endhighlight %}
+
+
+
 program：House Price Pediction 之 Tensorflow 学习笔记--（1）
 
 ####House Price Pediction 之 Tensorflow 学习笔记--（1）
